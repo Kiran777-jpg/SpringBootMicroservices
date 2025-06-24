@@ -6,7 +6,7 @@
    <beans>
        <bean id="cp" class="com.example.IOC_PaymentService.services.CreditCardPayment"/>
        <bean id="dp" class="com.example.IOC_PaymentService.services.DebitCardPayment"/>
-       <bean id="rs" class="com.example.IOC_PaymentService.services.RestaurantService">
+       <bean id="rs" class="com.example.IOC_PaymentService.services.RestaurantService" >
            <property name="payment" ref="dp"/>
            <constructor-arg ref="cp"/>
        </bean>
