@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcb6a65d-f4ad-4557-80b5-60f163a97ffa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/IOC-PaymentService/src/main/java/com/example/IOC_PaymentService/interfaces/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOC-PaymentService/src/main/java/com/example/IOC_PaymentService/services/CreditCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOC-PaymentService/src/main/java/com/example/IOC_PaymentService/services/DebitCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOC-PaymentService/src/main/java/com/example/IOC_PaymentService/services/RestaurantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOC-PaymentService/src/main/resources/spring-beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaymentService-1/PaymentService/PaymentService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentService-1/PaymentService/PaymentService.iml" afterDir="false" />
-    </list>
+    <list default="true" id="fcb6a65d-f4ad-4557-80b5-60f163a97ffa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

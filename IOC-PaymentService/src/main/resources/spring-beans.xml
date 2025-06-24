@@ -4,9 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
    <beans>
-       <bean class="com.example.IOC_PaymentService.services.CreditCardPayment" id="cp"/>
-       <bean class="com.example.IOC_PaymentService.services.DebitCardPayment" id="dp" />
-       <bean class="com.example.IOC_PaymentService.services.RestaurantService" id="rs">
+       <bean id="cp" class="com.example.IOC_PaymentService.services.CreditCardPayment"/>
+       <bean id="dp" class="com.example.IOC_PaymentService.services.DebitCardPayment"/>
+       <bean id="rs" class="com.example.IOC_PaymentService.services.RestaurantService">
            <property name="payment" ref="dp"/>
            <constructor-arg ref="cp"/>
        </bean>
