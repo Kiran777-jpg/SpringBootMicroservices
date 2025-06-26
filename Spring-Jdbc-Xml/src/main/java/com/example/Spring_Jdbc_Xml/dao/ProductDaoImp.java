@@ -13,7 +13,7 @@ public class ProductDaoImp implements ProductDao{
     @Override
     public boolean save() {
         String sql = "insert into product values(3, 'Java Notes', 'Book', 1000)";
-        jdbcTemplate.execute(sql);
+//        jdbcTemplate.execute(sql);
         return true;
     }
 }
