@@ -18,13 +18,19 @@ public class SpringBootDataJpaApplication {
 //		System.out.println(product.getName());
 //		System.out.println(product.toString());
 //
-//		product = productService.getProductByName("Book");
+//		Product product = productService.getProductByName("Watch");
 //		System.out.println(product.getDescription());
 
 //		productService.getProductGreaterthanPrice(1200);
 
 //		productService.callCustomQueries();
-		productService.saveEmps();
+//		productService.saveProducts();
+
+		try {
+			productService.saveProductWithException();
+		} catch (Exception ex) {
+			System.out.println(ex.getMessage());
+		}
 	}
 
 }

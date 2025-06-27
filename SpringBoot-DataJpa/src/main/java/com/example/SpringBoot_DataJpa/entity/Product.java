@@ -18,6 +18,8 @@ public class Product {
         return new Builder();
     }
 
+    public Product() {}
+
     public Product(Builder builder) {
         this.id = builder.getId();
         this.name = builder.getName();
