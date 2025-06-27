@@ -1,4 +1,4 @@
-package com.example.WebMvc_App1.controller;
+package com.example.WebMvc_App1.general_controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
